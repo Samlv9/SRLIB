@@ -1,0 +1,27 @@
+{
+    "name": "SRLIB",
+    "version": "1.0.0-dev",
+    "description": "An object-oriented library for javascript developers.",
+    "author": "Samlv9 <Samlv9@live.com> (http://profile.samlv9.com/samlv9)",
+    "homepage": "http://samlv9.com/",
+    "keywords": [
+        "javascript",
+        "library",
+        "object-oriented"
+    ],
+    "repository": {
+        "type": "git",
+        "url" : "https://github.com/Samlv9/SRLIB.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Samlv9/SRLIB/issues"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "jasmine-node": "^1.14.5"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/jasmine-node spec"
+    }
+}
