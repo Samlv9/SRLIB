@@ -37,6 +37,6 @@ gulp.task("default", function () {
         .pipe( sourcemaps.init() )
         .pipe( reference() )
         .pipe( sourcemaps.write(".") )
-        .pipe( gulp.dest("./wwwroot/dist") );
+        .pipe( gulp.dest("./dist") );
 });
 
