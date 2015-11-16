@@ -44,8 +44,8 @@ git checkout source
 
  模块                   | 状态                    | 更新日期                | 描述
 ------------------------|------------------------|------------------------|------------------------
- [core][pkg-core]       | Working...             | 2015/11/05             | 用于提供最顶层核心的函数/类型。
- [codec][pkg-codec]     | N/A                    | N/A                    | 用于提供编码和解码（encoder/decoder）类。包括：UTF8/Base64/Hex，JPEG/PNG/BMP，AAC/MP3，H.264/VP8 等文本，图片，音频，视频解码类型。
+ [core][pkg-core]       | Pending...             | 2015/11/05             | 用于提供最顶层核心的函数/类型。
+ [codec][pkg-codec]     | Working...             | 2015/11/16             | 用于提供编码和解码（encoder/decoder）类。包括：UTF8/Base64/Hex，JPEG/PNG/BMP，AAC/MP3，H.264/VP8 等文本，图片，音频，视频解码类型。
  [crypto][pkg-crypto]   | N/A                    | N/A                    | 用于提供安全加密的类。包括：MD4/MD5/SHA-1，RSA，DES/AES 等哈希函数，对称/非对称加密函数。
  [events][pkg-events]   | N/A                    | N/A                    | 用于提供对 [DOM Level 3 Events][wd-level-3-events] 定义的事件系统的 Javascript 版本的实现。
  [network][pkg-network] | N/A                    | N/A                    | 用于提供网络通信的类型。包括：Http 下载/上传、流处理、Socket 连接、P2P 连接等。
@@ -206,7 +206,7 @@ obj.say();
 
  名称                   | 状态                    | 更新日期                | 描述
 ------------------------|------------------------|------------------------|------------------------
- [reference][toolkit-1] | N/A                    | N/A                    | 用于解析模块的引用以及基于引用关系生成最终代码。
+ [reference][toolkit-1] | v1.1.2                 | 2015/11/16             | 用于解析模块的引用以及基于引用关系生成最终代码。
 
 
 ## 问题 ##
