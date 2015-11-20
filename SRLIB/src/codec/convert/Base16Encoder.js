@@ -66,7 +66,7 @@ Base16Encoder.encode = function encode( block ) {
     for ( var i = 0, len = block.length; i < len; ++i ) {
         buffer = block[i];
 
-        output += BASE16_ENCODE_TABLE[buffer >> 4];
+        output += BASE16_ENCODE_TABLE[buffer >>> 4];
         output += BASE16_ENCODE_TABLE[buffer & 0xF];
     }
 
@@ -88,7 +88,6 @@ Base16Encoder.decode = function decode( input ) {
         throw new Error("无效的 BASE16 字符串。");
     }
 
-    var buffer = 0;
     var head   = 0;
     var trail  = 0;
     var output = new Uint8Array(input.length >>> 1);
